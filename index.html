@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Your Name</h1>
+      <p class="hero-role">Web Developer &amp; Designer</p>
+      <p class="hero-bio">I build clean, responsive, and user-friendly websites. Welcome to my portfolio.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-placeholder">
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am a passionate developer with a love for building meaningful digital experiences. I enjoy working on both frontend and backend technologies and am always eager to learn something new.</p>
+          <p>When I'm not coding, I enjoy reading, problem-solving, and exploring the latest in tech.</p>
+          <ul class="about-details">
+            <li><i class="fas fa-user"></i> <strong>Name:</strong> Your Full Name</li>
+            <li><i class="fas fa-envelope"></i> <strong>Email:</strong> youremail@example.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Your City, Country</li>
+            <li><i class="fas fa-graduation-cap"></i> <strong>Degree:</strong> B.Sc. Computer Science</li>
+          </ul>
+          <a href="#" class="btn btn-primary" download>Download CV</a>
+        </div>
+        <div class="about-image">
+          <div class="image-frame">
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-subtitle">Technologies I work with</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+          <span>90%</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          <span>85%</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div>
+          <span>80%</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+          <span>75%</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+          <span>70%</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-git-alt"></i>
+          <h3>Git &amp; GitHub</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          <span>85%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">Things I've built</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Project One</h3>
+          <p>A brief description of what this project does and the technologies used to build it.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Project Two</h3>
+          <p>A brief description of what this project does and the technologies used to build it.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>SQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Project Three</h3>
+          <p>A brief description of what this project does and the technologies used to build it.</p>
+          <div class="project-tags">
+            <span>React</span><span>API</span><span>CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">Let's get in touch</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>youremail@example.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+234 000 000 0000</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Your City, Nigeria</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <input type="text" id="name" placeholder="Your Name" />
+          <input type="email" id="email" placeholder="Your Email" />
+          <input type="text" id="subject" placeholder="Subject" />
+          <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+          <button class="btn btn-primary" onclick="sendMessage()">Send Message</button>
+          <p id="form-status"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p>Built with ❤️ using HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
