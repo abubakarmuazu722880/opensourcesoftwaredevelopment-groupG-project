@@ -2,7 +2,7 @@
    PORTFOLIO WEBSITE — style.css
    ========================================= */
 
-/* --- RESET & BASE --- */
+/* --- RESET & BASE  MEMBER 12--- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -57,7 +57,7 @@ img { max-width: 100%; display: block; }
 }
 .btn-outline:hover { background: #fff; color: var(--primary); }
 
-/* --- NAVBAR --- */
+/* --- NAVBAR MEMBER 13--- */
 .navbar {
   position: fixed; top: 0; width: 100%; z-index: 999;
   background: rgba(15,23,42,0.95);
@@ -82,7 +82,7 @@ img { max-width: 100%; display: block; }
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
 .hamburger span { width: 24px; height: 2px; background: #fff; border-radius: 2px; }
 
-/* --- HERO --- */
+/* --- HERO MEMEBER 14 --- */
 .hero {
   min-height: 100vh;
   background: linear-gradient(135deg, var(--dark) 60%, #1e3a5f 100%);
@@ -139,7 +139,7 @@ img { max-width: 100%; display: block; }
   margin: 0.6rem auto 0;
 }
 
-/* --- ABOUT --- */
+/* --- ABOUT MEMBER 14--- */
 .about-grid {
   display: grid; grid-template-columns: 1fr 1fr;
   gap: 4rem; align-items: center;
@@ -157,7 +157,7 @@ img { max-width: 100%; display: block; }
   max-width: 360px; margin: 0 auto;
 }
 
-/* --- SKILLS --- */
+/* --- SKILLS  MEMBER 16--- */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -184,7 +184,7 @@ img { max-width: 100%; display: block; }
 }
 .skill-card span { font-size: 0.8rem; color: var(--muted); }
 
-/* --- PROJECTS --- */
+/* --- PROJECTS MEMBER 17 --- */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -270,7 +270,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.9rem; line-height: 2;
 }
 
-/* --- RESPONSIVE --- */
+/* --- RESPONSIVE MEMBER 18--- */
 @media (max-width: 768px) {
   .nav-links { display: none; }
   .hamburger { display: flex; }
