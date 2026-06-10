@@ -2,7 +2,7 @@
 //   PORTFOLIO WEBSITE — script.js
 // =========================================
 
-// --- MOBILE MENU TOGGLE ---
+// --- MOBILE MENU TOGGLE  MEMBER EIGHT---
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.querySelector('.nav-links');
 
@@ -35,7 +35,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-// --- SKILL BAR ANIMATION ---
+// --- SKILL BAR ANIMATION MEMEBER TEN---
 const skillFills = document.querySelectorAll('.skill-fill');
 
 const animateSkills = (entries, observer) => {
@@ -76,7 +76,7 @@ const revealObserver = new IntersectionObserver(revealOnScroll, { threshold: 0.1
 revealElements.forEach(el => revealObserver.observe(el));
 
 
-// --- CONTACT FORM HANDLER ---
+// --- CONTACT FORM HANDLER MEMBER ELEVEN---
 function sendMessage() {
   const name    = document.getElementById('name').value.trim();
   const email   = document.getElementById('email').value.trim();
