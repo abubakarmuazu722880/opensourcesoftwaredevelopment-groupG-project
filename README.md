@@ -1,3 +1,19 @@
+list of group memebers
+ABUBAKAR MU'AZU        CIS/STE/22/1130      {GROUP LEADER}
+JABIR YUSUF SAIDU      CIS/STE/22/1135       {ASSISTANT GROUP LEADER}
+ABUBAKAR SADEEQ ABDULLAHI      CIS/STE/22/1137      
+
+
+
+
+
+
+
+
+
+
+
+
 # 🌐 Personal Portfolio Website
 
 A clean, responsive, and modern personal portfolio website template built with **HTML5**, **CSS3**, and **Vanilla JavaScript**.
