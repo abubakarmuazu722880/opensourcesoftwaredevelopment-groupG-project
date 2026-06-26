@@ -56,7 +56,6 @@ img { max-width: 100%; display: block; }
   color: #fff;
 }
 .btn-outline:hover { background: #fff; color: var(--primary); }
-
 /* --- NAVBAR MEMBER 13--- */
 .navbar {
   position: fixed; top: 0; width: 100%; z-index: 999;
